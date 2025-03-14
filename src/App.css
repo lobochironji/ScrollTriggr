@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(5, 5, 100);
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: "formula";
+    src: url("src/assets/fonts/Formula1-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Outfit;
+    src: url("src/assets/fonts/Outfit/Outfit-Bold.ttf");
+}
+
+.page1{
+    padding-top: 80px;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(5, 5, 5);
+}
+
+.b1, .b2, .b3{
+    opacity: 0;
+    margin: 0;
+    padding: 10px 0;
+    transform: translate(0,50px);
+    font-size: 50px;
+    color: rgb(246, 246, 246);
+    font-family: formula;
+    text-align: center;
+}
+
+.logo{
+    display: block;
+    opacity: 0;
+    margin: 100px auto;
+    height: 200px;;
+}
+
+.page2{
+    position: relative;
+    opacity: 1;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(5, 5, 5);
+}
+
+.box{
+    display: flex;
+    justify-content: space-around;
+}
+
+.soft, .medium, .hard{
+    opacity: 0;
+    height: 400px;
+    width: 400px;
+}
+
+.leclern-video{
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+}
+
+.page3 {
+    will-change: transform;
+    width: 100vw;
+    height: 100vh;
+    min-height: 100vh;
+    background-color: lightblue;
+    overflow: visible;
+}
+
+.page3 > h1{    
+    margin: 0;
+    font-size: 40vw;
+    font-family: Outfit;
+}
+
+.page4{
+    width: 100vw;
+    height: 100vh;
+    background-color: green;
+    position: relative;
+    top: 0;
+}
+
+
+
+
+
+
+
+
+
+
