@@ -1,7 +1,7 @@
 import gsap from "gsap";
 import { useEffect, useRef, useState } from "react";
-import logo from "/src/assets/images/F1logo.svg"
-import leclern from "/src/assets/images/leclern.mp4"
+import logo from "/src/material/images/F1logo.svg"
+import leclern from "/src/material/images/leclern.mp4"
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
@@ -206,7 +206,7 @@ export default function App(){
           </div>
         </div>
         <div className="page3">
-            <img className="rb20" src="/src/assets/images/rb20.webp"/>
+            <img className="rb20" src="/src/material/images/rb20.webp"/>
             <h1 style={{whiteSpace: "nowrap"}}>EXPERIENCE PURE SPEED</h1>
         </div>
         <div className="page4">
