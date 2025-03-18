@@ -12,12 +12,11 @@ body{
 
 @font-face {
     font-family: "formula";
-    src: url("src/assets/fonts/Formula1-Bold.otf") format("opentype");
+    src: url("src/assets/fonts/formula.otf") format("opentype");
 }
-
 @font-face {
     font-family: Outfit;
-    src: url("src/assets/fonts/Outfit/Outfit-Bold.ttf");
+    src: url("src/assets/fonts/outfit/outfit.ttf");
 }
 
 .page1{
