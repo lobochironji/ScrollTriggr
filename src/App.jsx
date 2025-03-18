@@ -206,7 +206,7 @@ export default function App(){
           </div>
         </div>
         <div className="page3">
-            <img className="rb20" src="\src\assets\images\rb20.webp"/>
+            <img className="rb20" src="/src/assets/images/rb20.webp"/>
             <h1 style={{whiteSpace: "nowrap"}}>EXPERIENCE PURE SPEED</h1>
         </div>
         <div className="page4">
